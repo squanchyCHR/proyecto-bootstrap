@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    padding: 2em;
+}
+
+.texto{
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+}
+.textoProyectos{
+    color: white;
+    font-size: 3vh;
+    margin-left: 4.5%;
+}
+
+
+.row{
+    padding: 1rem;
+}
+
+.cajaBorde1{
+    border: 1px #ff266e solid;
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+}
+.cajaBorde2{
+    border: 1px #ff266e solid;
+    height: 40vh;
+    position: relative;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.barra{
+    background-color: #ff266e;
+    height: 8vh;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barraProyectos{
+    background-color: #ff266e;
+    height: 8vh;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.cajaBordeProyectos{
+    border: 1px #ff266e solid;
+    height: 30vh;
+    position: relative;
+}
+
+@media(max-width:1199px)
+{
+
+.barraProyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
